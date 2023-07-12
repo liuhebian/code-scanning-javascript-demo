@@ -5,6 +5,8 @@ var path = require('path')
 var fs = require('fs')
 var os = require('os')
 
+var pass = 'P$@ssword'
+
 var win32 = os.platform() === 'win32'
 
 var mtime = function (st) {
